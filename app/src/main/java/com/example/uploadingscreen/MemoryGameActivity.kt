@@ -39,7 +39,7 @@ class MemoryGameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_memory_game)
 
         gridlayout = findViewById(R.id.gridLayout)
-        imgs.shuffle() //random pattern ban gya
+        imgs.shuffle() //random pattern ban gya new learning
 
         cards = Array(12){index->
             val image = ImageView(this)
@@ -96,17 +96,17 @@ class MemoryGameActivity : AppCompatActivity() {
 
             } else {
 
-                // No match → flip both back
+               
                 flipClose(cards[firstimg])
                 flipClose(cards[secimg])
             }
 
-            // Reset indexes
+        
             firstimg= -1
             secimg = -1
             isBusy = false
 
-        }, 800L)  // delay MUST be a Long (not a lambda)
+        }, 800) 
     }
 
     private fun flipOpen(card:ImageView,img:Int){
