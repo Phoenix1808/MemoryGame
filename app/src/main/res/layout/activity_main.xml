@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#A8E6CF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Games Hub"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#0D0000"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/uploadbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload / Download Task"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memory Game"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <Button
+        android:id="@+id/btnSeq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Sequence Game"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+
+    <Button
+        android:id="@+id/ConnectDot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect the Dots Game"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnTrivia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trivia Quiz"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
